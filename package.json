@@ -1,0 +1,27 @@
+{
+  "name": "xgc",
+  "version": "0.0.0",
+  "description": "xGC - Experimental emulator of GC enabled CPU",
+  "main": "lib/xgc.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:indutny/xgc"
+  },
+  "keywords": [
+    "gc",
+    "cpu",
+    "emulator"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/xgc/issues"
+  },
+  "homepage": "https://github.com/indutny/xgc",
+  "devDependencies": {
+    "mocha": "^1.17.1"
+  }
+}
